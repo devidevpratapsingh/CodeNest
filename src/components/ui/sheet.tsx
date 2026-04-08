@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Dialog as SheetPrimitive } from "radix-ui"
+import * as SheetPrimitive from "@radix-ui/react-dialog"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -20,7 +20,7 @@ function SheetTrigger({
 function SheetClose({
   ...props
 }: React.ComponentProps<typeof SheetPrimitive.Close>) {
-  return <SheetPrimitive.Close data-slot="sheet-close" {...props} />
+  return <SheetPrimitive.Close data-slot="sheet-close" {...props} /> 
 }
 
 function SheetPortal({

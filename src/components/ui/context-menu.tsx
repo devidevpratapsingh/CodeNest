@@ -22,7 +22,7 @@ function ContextMenuTrigger({
       className={cn("select-none", className)}
       {...props}
     />
-  )
+  ) 
 }
 
 function ContextMenuGroup({

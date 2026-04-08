@@ -24,7 +24,7 @@ function DrawerPortal({
 }
 
 function DrawerClose({
-  ...props
+  ...props 
 }: React.ComponentProps<typeof DrawerPrimitive.Close>) {
   return <DrawerPrimitive.Close data-slot="drawer-close" {...props} />
 }

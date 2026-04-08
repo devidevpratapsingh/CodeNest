@@ -11,7 +11,7 @@ function InputOTP({
   containerClassName,
   ...props
 }: React.ComponentProps<typeof OTPInput> & {
-  containerClassName?: string
+  containerClassName?: string 
 }) {
   return (
     <OTPInput

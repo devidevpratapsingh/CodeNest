@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Select as SelectPrimitive } from "radix-ui"
+import * as SelectPrimitive from "@radix-ui/react-select"
 
 import { cn } from "@/lib/utils"
 import { ChevronDownIcon, CheckIcon, ChevronUpIcon } from "lucide-react"
@@ -21,7 +21,7 @@ function SelectGroup({
       data-slot="select-group"
       className={cn("scroll-my-1 p-1", className)}
       {...props}
-    />
+    /> 
   )
 }
 

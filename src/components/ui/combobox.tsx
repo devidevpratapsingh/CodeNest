@@ -23,7 +23,7 @@ function ComboboxTrigger({
   className,
   children,
   ...props
-}: ComboboxPrimitive.Trigger.Props) {
+}: ComboboxPrimitive.Trigger.Props) { 
   return (
     <ComboboxPrimitive.Trigger
       data-slot="combobox-trigger"

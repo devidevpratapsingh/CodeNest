@@ -21,7 +21,7 @@ const ToggleGroupContext = React.createContext<
 
 function ToggleGroup({
   className,
-  variant,
+  variant, 
   size,
   spacing = 0,
   orientation = "horizontal",
